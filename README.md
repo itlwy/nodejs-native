@@ -97,6 +97,7 @@ Nodejs native(c++) example list. if it helps you,please star to encourge,thank y
 ```
 node-gyp configure
 node-gyp build
+node test.js
 ```
 
 ​	好了，此时应该可以看到控制台输出"hello world"了。但是，一般我们都是手头上有一个现成的库需要去调用，可不是写个.cc源文件输出"hello world"可以完事的，咱看下一步。代码见 [github](https://github.com/itlwy/nodejs-native/tree/master/hello-world)
